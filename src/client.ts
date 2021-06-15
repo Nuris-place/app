@@ -1,4 +1,5 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
+import { API_URI } from 'react-native-dotenv'
 
 const client = new ApolloClient({
   uri:
